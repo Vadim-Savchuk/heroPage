@@ -1,0 +1,58 @@
+.hero-page-offer {
+    display: flex;
+    flex-direction: none;
+    justify-content: space-between;
+}
+
+.dod {
+    width: 40%;
+    margin-left: 20px;
+    flex-direction: none;
+}
+
+.hero-page-img-offer {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+}
+
+.hero-page-img {
+    width: 100%;
+}
+
+.comics-page {
+    top: 20px;
+    right: 20px;
+    color: var(--main-bg-color);
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    background-color: var(--main-color);
+}
+
+.hero-page-info-offer {
+    padding: 40px 0px 0px;
+}
+
+.hero-page-info-names {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.hero-page-name {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.biography-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.biography {
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(128, 128, 128, 0.2);
+}

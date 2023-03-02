@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;700&display=swap');
+
+:root {
+    --main-color: white;
+    --main-bg-color: black;
+    --main-dod-color: brown;
+    --main-low-bg-color: grey;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    transition: all 0.3s;
+    color: var(--main-color);
+    font-family: 'Labrada', serif;
+    background-color: var(--main-bg-color);
+}
+
+body.black {
+    --main-color: white;
+    --main-bg-color: black;
+}
+
+body.white {
+    --main-color: black;
+    --main-bg-color: white;
 }

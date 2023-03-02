@@ -1,0 +1,23 @@
+.heroes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-card {
+    width: 100%;
+    max-width: 23%;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-right: 2.555%;
+}
+
+.link-card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.loading {
+    margin: 0 auto;
+    font-size: 40px;
+    margin-top: 50px;
+}

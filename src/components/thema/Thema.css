@@ -1,0 +1,20 @@
+.thema {
+    display: flex;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: var(--main-low-bg-color);
+}
+
+.thema button {
+    padding: 10px;
+    background: transparent;
+}
+
+.thema button.active {
+    background-color: brown;
+}
+
+.them-img {
+    width: 25px;
+    border-radius: 25px;
+}
