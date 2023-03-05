@@ -38,11 +38,11 @@ function App() {
                         setSearch={setSearch}
                     />
 
-                    {/* <Routes>
+                     <Routes>
                         <Route path='/' element={<AllHero heroes={heroes} search={search} />} />
                         <Route path='/abouth' element={<Abouth />} />
                         <Route path='/hero/:id' element={<Hero />} />
-                    </Routes> */}
+                    </Routes>
 
                 </Router>
             </div>
