@@ -23,7 +23,7 @@ function Header({ search, setSearch, heroes }) {
 
             {/* Menu */}
             <nav className='menu'>
-                <NavLink className='link active' to='/heroPage'>
+                <NavLink className='link active' to='/heroPage/'>
                     Heroes
                 </NavLink>
 
