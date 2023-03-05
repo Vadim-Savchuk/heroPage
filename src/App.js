@@ -39,7 +39,7 @@ function App() {
                     />
 
                      <Routes>
-                        <Route path='/heroPage' element={<AllHero heroes={heroes} search={search} />} />
+                        <Route path='/heroPage/' element={<AllHero heroes={heroes} search={search} />} />
                         <Route path='/abouth' element={<Abouth />} />
                         <Route path='/hero/:id' element={<Hero />} />
                     </Routes>
